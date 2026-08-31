@@ -22,6 +22,24 @@ public class PyramidTriangle {
 
         }
 
+        System.out.println("Second Version--");
+
+        int num = 5;
+
+        for (int row = 1; row <=num ; row++) {
+            for (int spaces = 1; spaces <=num- row; spaces++) {
+                System.out.print(" ");
+
+            }
+            for (int col = 1; col<=2* row -1 ; col++) {
+
+                System.out.print("* ");
+
+            }
+            System.out.println();
+
+        }
+
 
 
 
