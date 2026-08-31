@@ -6,19 +6,7 @@ public class MultiplesOfN {
 
 
         // print prime number from 1 to 100;
-//
-//        int num = 2;
-//
-//
-//        for (int i = 2; i <=100 ; i++) {
-//
-//            if (num % i != 0){
-//                System.out.println(i);
-//
-//            }
-//
-//
-//        }
+
 
 
 
