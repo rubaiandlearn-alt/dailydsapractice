@@ -3,16 +3,17 @@ package Loops.patternprinting;
 public class PyramidTriangle {
     public static void main(String[] args) {
 
-        int n = 3;
+        int n = 5;
+
 
         for (int rows = 1; rows <=n; rows++) {
-            for (int col = 6; col >=n-rows ; col--) {
+            for (int space = 1; space<=(n-1)-rows ; space++) {
 
                 System.out.print(" ");
 
             }
 
-            for (int i = rows; i <=n ; i++) {
+            for (int i = rows; i >=1 ; i--) {
                 System.out.print("* ");
 
             }
@@ -20,7 +21,9 @@ public class PyramidTriangle {
 
 
         }
-        //
+
+
+
 
 
     }
