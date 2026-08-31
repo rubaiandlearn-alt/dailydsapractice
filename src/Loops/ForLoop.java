@@ -13,9 +13,6 @@ public class ForLoop {
 
         }
 
-        //        name = 'a'+2;
-//
-//        System.out.println(name);
 
 
 
