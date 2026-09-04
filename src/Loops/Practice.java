@@ -3,15 +3,13 @@ package Loops;
 public class Practice {
     public static void main(String[] args) {
 
-        int num = 5;
-        int mulply = 1;
+        int n =3;
 
-        for (int i = 1; i <=num ; i++) {
-
-            mulply=mulply*i;
+        for (int col = 1; col <=n+2; col++) {
+            System.out.print("* ");
 
         }
-        System.out.println(mulply);
+        System.out.println();
 
 
     }
